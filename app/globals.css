@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-tricomm: #EA4F1D;
+  --color-tricomm-light: #FF6B35;
+  --color-tricomm-gray: #7D8082;
+  --color-tricomm-dark: #1E293B;
+  --color-whatsapp: #25D366;
+}
+
+body {
+  color: #1E293B;
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(234, 79, 29, 0.15);
+  color: #EA4F1D;
+}
+
+/* Subtle tech dot grid - ultra lightweight SVG/radial pattern */
+.bg-telecom-grid {
+  background-image: radial-gradient(rgba(125, 128, 130, 0.14) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Hardware accelerated CSS animation delays for zero-JS stagger */
+.animate-delay-1 {
+  animation-delay: 80ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-2 {
+  animation-delay: 160ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-3 {
+  animation-delay: 240ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-4 {
+  animation-delay: 320ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-5 {
+  animation-delay: 400ms;
+  animation-fill-mode: backwards;
+}
