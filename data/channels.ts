@@ -16,7 +16,7 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
     id: "chinacota",
     badge: "Sede",
     title: "Chinácota (Atención Comercial y Ventas)",
-    subtitle: "Planes de internet, contratos y pagos",
+    subtitle: "Atención comercial y ventas",
     phoneRaw: "573156703381",
     phoneDisplay: "315 670 3381",
     whatsappUrl:
@@ -29,7 +29,7 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
     id: "zulia",
     badge: "Sede",
     title: "Zulia (Atención Comercial y Ventas)",
-    subtitle: "Planes de internet, contratos y pagos",
+    subtitle: "Atención comercial y ventas",
     phoneRaw: "573003239896",
     phoneDisplay: "300 323 9896",
     whatsappUrl:
@@ -42,7 +42,7 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
     id: "cucuta",
     badge: "Sede",
     title: "Cúcuta (Atención Comercial y Ventas)",
-    subtitle: "Planes de internet, contratos y pagos",
+    subtitle: "Atención comercial y ventas",
     phoneRaw: "573182433579",
     phoneDisplay: "318 243 3579",
     whatsappUrl:
@@ -55,7 +55,7 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
     id: "soporte",
     badge: "Prioritario",
     title: "Soporte Técnico Especializado",
-    subtitle: "Asistencia técnica, configuración y fallas",
+    subtitle: "Asistencia y soporte técnico",
     phoneRaw: "573176426833",
     phoneDisplay: "317 642 6833",
     whatsappUrl:

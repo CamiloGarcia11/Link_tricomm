@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   keywords: [
     "TRICOM",
     "TRICOM telecomunicaciones",
-    "Internet Fibra Óptica",
+    "Telecomunicaciones",
     "Chinácota",
     "El Zulia",
     "Cúcuta",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "TRICOM Telecomunicaciones | Canales de Atención",
     description:
-      "Conectividad y Fibra Óptica. Selecciona tu sede (Chinácota, El Zulia, Cúcuta) o Soporte Técnico para atención inmediata por WhatsApp.",
+      "Canales Oficiales. Selecciona tu sede (Chinácota, El Zulia, Cúcuta) o Soporte Técnico para atención inmediata por WhatsApp.",
     siteName: "TRICOM Telecomunicaciones",
     locale: "es_CO",
     type: "website",

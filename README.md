@@ -52,7 +52,7 @@ Vercel factura y aplica límites estrictos sobre dos métricas críticas:
 │   ├── BackgroundDecor.tsx  # Resplandor radial y malla tecnológica
 │   ├── ContactCard.tsx      # Tarjeta interactiva con WhatsApp + Copia rápida
 │   ├── Footer.tsx           # Derechos reservados y badge de VisionWeb
-│   ├── Header.tsx           # Logo WebP, badge de fibra y bienvenida
+│   ├── Header.tsx           # Logo WebP, badge oficial y bienvenida
 │   ├── Toast.tsx            # Micro-toast de notificación de copia (CSS transitions)
 │   └── WhatsAppIcon.tsx     # SVG oficial de WhatsApp
 ├── data/

@@ -24,10 +24,10 @@ export const BackgroundDecor: React.FC = () => {
         }}
       />
 
-      {/* Fiber tech grid pattern */}
+      {/* Telecom grid pattern */}
       <div className="absolute inset-0 bg-telecom-grid opacity-60" />
 
-      {/* Subtle curved tech fiber lines */}
+      {/* Subtle curved tech lines */}
       <svg
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] opacity-[0.035] text-tricomm-orange"
         viewBox="0 0 800 600"

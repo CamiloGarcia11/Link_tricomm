@@ -1,5 +1,4 @@
 import React from "react";
-import { ShieldCheck, Wifi } from "lucide-react";
 
 export const Header: React.FC = () => {
   return (
@@ -7,7 +6,6 @@ export const Header: React.FC = () => {
       {/* Logo container with GPU-accelerated CSS entrance */}
       <div className="relative group mb-5 animate-scale-in">
         <div className="relative flex items-center justify-center p-3.5 bg-white/90 backdrop-blur-xs rounded-3xl border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all duration-300 group-hover:shadow-[0_12px_36px_rgba(234,79,29,0.09)]">
-          {/* Ultra-optimized WebP with PNG fallback (8.1 KB) - direct static serve, 0 Vercel image compute */}
           <picture>
             <source srcSet="/logo-tricom.webp" type="image/webp" />
             <img
@@ -22,7 +20,7 @@ export const Header: React.FC = () => {
           </picture>
         </div>
 
-        {/* Live fiber optic status indicator */}
+        {/* Live status indicator */}
         <div className="absolute -bottom-1 -right-1 bg-white p-1 rounded-full shadow-md border border-slate-100">
           <span className="flex h-3 w-3 relative">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
@@ -38,13 +36,13 @@ export const Header: React.FC = () => {
           <span className="relative inline-flex rounded-full h-2 w-2 bg-tricom-orange"></span>
         </span>
         <span className="text-xs font-semibold text-slate-800 tracking-tight flex items-center gap-1.5">
-          Conectividad y Fibra Óptica
+          Telecomunicaciones
           <span className="text-orange-400">•</span>
           <span className="text-tricom-orange font-bold">Canales Oficiales</span>
         </span>
       </div>
 
-      {/* Brief welcome text */}
+      {/* Welcome text */}
       <div className="max-w-xs sm:max-w-sm animate-fade-in-up animate-delay-2">
         <p className="text-sm text-slate-600 leading-relaxed font-sans">
           Selecciona tu sede o área de atención para comunicarte con nuestro equipo por{" "}
@@ -53,18 +51,6 @@ export const Header: React.FC = () => {
           </span>
           .
         </p>
-      </div>
-
-      {/* Trust micro-bar */}
-      <div className="flex items-center justify-center gap-4 mt-3 text-[11px] text-slate-400 font-medium animate-fade-in-up animate-delay-3">
-        <span className="inline-flex items-center gap-1">
-          <Wifi className="w-3.5 h-3.5 text-tricom-orange/80" />
-          Fibra Óptica Directa
-        </span>
-        <span className="inline-flex items-center gap-1">
-          <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-          Atención Certificada
-        </span>
       </div>
     </header>
   );

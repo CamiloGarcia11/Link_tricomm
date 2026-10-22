@@ -7,16 +7,13 @@ export const Footer: React.FC = () => {
   return (
     <footer className="w-full mt-10 pt-6 border-t border-slate-100 flex flex-col items-center text-center gap-3.5 pb-2 animate-fade-in animate-delay-5">
       {/* Brand copyright notice */}
-      <div className="flex flex-col items-center gap-1">
+      <div className="flex flex-col items-center">
         <p className="text-xs text-slate-500 font-medium">
           © {currentYear}{" "}
           <span className="font-semibold text-slate-700">
             TRICOM telecomunicaciones
           </span>
           . Todos los derechos reservados.
-        </p>
-        <p className="text-[11px] text-slate-400">
-          Internet de alta velocidad y fibra óptica dedicada.
         </p>
       </div>
 
