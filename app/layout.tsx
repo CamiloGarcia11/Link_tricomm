@@ -24,23 +24,23 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tricomm.com.co"),
-  title: "TRICOMM Telecomunicaciones | Canales de Atención",
+  metadataBase: new URL("https://tricom.com.co"),
+  title: "TRICOM Telecomunicaciones | Canales de Atención",
   description:
-    "Canales oficiales de WhatsApp para TRICOMM Telecomunicaciones. Comunícate directamente con nuestras sedes de Chinácota, El Zulia, Cúcuta y Soporte Técnico Especializado.",
+    "Canales oficiales de WhatsApp para TRICOM Telecomunicaciones. Comunícate directamente con nuestras sedes de Chinácota, El Zulia, Cúcuta y Soporte Técnico Especializado.",
   keywords: [
-    "TRICOMM",
-    "TRICOMM telecomunicaciones",
+    "TRICOM",
+    "TRICOM telecomunicaciones",
     "Internet Fibra Óptica",
     "Chinácota",
     "El Zulia",
     "Cúcuta",
-    "Soporte Técnico TRICOMM",
-    "WhatsApp TRICOMM",
+    "Soporte Técnico TRICOM",
+    "WhatsApp TRICOM",
   ],
-  authors: [{ name: "TRICOMM Telecomunicaciones" }, { name: "VisionWeb" }],
+  authors: [{ name: "TRICOM Telecomunicaciones" }, { name: "VisionWeb" }],
   creator: "VisionWeb",
-  publisher: "TRICOMM Telecomunicaciones",
+  publisher: "TRICOM Telecomunicaciones",
   formatDetection: {
     telephone: true,
     email: true,
@@ -48,30 +48,30 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon-64.png",
-    apple: "/logo-tricomm.png",
+    apple: "/logo-tricom.png",
   },
   openGraph: {
-    title: "TRICOMM Telecomunicaciones | Canales de Atención",
+    title: "TRICOM Telecomunicaciones | Canales de Atención",
     description:
       "Conectividad y Fibra Óptica. Selecciona tu sede (Chinácota, El Zulia, Cúcuta) o Soporte Técnico para atención inmediata por WhatsApp.",
-    siteName: "TRICOMM Telecomunicaciones",
+    siteName: "TRICOM Telecomunicaciones",
     locale: "es_CO",
     type: "website",
     images: [
       {
-        url: "/logo-tricomm.png",
-        width: 1024,
-        height: 1024,
-        alt: "TRICOMM Telecomunicaciones - Logo",
+        url: "/logo-tricom.png",
+        width: 400,
+        height: 400,
+        alt: "TRICOM Telecomunicaciones - Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TRICOMM Telecomunicaciones | Canales de Atención",
+    title: "TRICOM Telecomunicaciones | Canales de Atención",
     description:
-      "Canales de WhatsApp oficiales de TRICOMM Telecomunicaciones: Chinácota, El Zulia, Cúcuta y Soporte Técnico.",
-    images: ["/logo-tricomm.png"],
+      "Canales de WhatsApp oficiales de TRICOM Telecomunicaciones: Chinácota, El Zulia, Cúcuta y Soporte Técnico.",
+    images: ["/logo-tricom.png"],
   },
 };
 

@@ -1,6 +1,6 @@
-# TRICOMM Telecomunicaciones — Bio Link Page (Linktree)
+# TRICOM Telecomunicaciones — Bio Link Page (Linktree)
 
-Aplicación web ultra-optimizada tipo **Bio Link Page (Linktree)** para **TRICOMM telecomunicaciones**, diseñada con arquitectura Clean Telecom Tech y optimizada específicamente para **reducir a cero el Fast Origin Transfer y minimizar al máximo el Data Transfer en Vercel**.
+Aplicación web ultra-optimizada tipo **Bio Link Page (Linktree)** para **TRICOM telecomunicaciones**, diseñada con arquitectura Clean Telecom Tech y optimizada específicamente para **reducir a cero el Fast Origin Transfer y minimizar al máximo el Data Transfer en Vercel**.
 
 ---
 
@@ -26,7 +26,7 @@ Vercel factura y aplica límites estrictos sobre dos métricas críticas:
 ## 🚀 Características Principales
 
 - **Framework:** Next.js 15 (App Router) con TypeScript y Static Export.
-- **Estilos:** Tailwind CSS con paleta corporativa TRICOMM (`#EA4F1D`, `#7D8082`, `#1E293B`, `#25D366`).
+- **Estilos:** Tailwind CSS con paleta corporativa TRICOM (`#EA4F1D`, `#7D8082`, `#1E293B`, `#25D366`).
 - **Iconografía:** `lucide-react` y SVG oficial de WhatsApp.
 - **Tipografía:** Google Fonts auto-hospedadas vía `next/font/google` (`Plus Jakarta Sans` e `Inter` en formato woff2).
 - **Acciones Rápidas (UX):**
@@ -58,8 +58,8 @@ Vercel factura y aplica límites estrictos sobre dos métricas críticas:
 ├── data/
 │   └── channels.ts          # Datos centralizados de sedes y números
 ├── public/
-│   ├── logo-tricomm.webp    # Logo ultra-ligero WebP (8.1 KB)
-│   ├── logo-tricomm.png     # Fallback PNG optimizado (11.1 KB)
+│   ├── logo-tricom.webp     # Logo ultra-ligero WebP (8.1 KB)
+│   ├── logo-tricom.png      # Fallback PNG optimizado (11.1 KB)
 │   └── favicon-64.png       # Favicon e icono de aplicación (2.3 KB)
 ├── next.config.ts           # Configurado con output: 'export'
 ├── vercel.json              # Reglas de caché estricta para Vercel Edge CDN
@@ -73,17 +73,11 @@ Vercel factura y aplica límites estrictos sobre dos métricas críticas:
 ## 🚢 Cómo Desplegar en Vercel
 
 ### Opción 1: Conectando a GitHub (Recomendado)
-1. Crea un repositorio vacío en tu cuenta de [GitHub](https://github.com/new).
-2. En tu terminal ejecuta:
-   ```bash
-   git add .
-   git commit -m "feat: linktree tricomm ultra eficiente"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-   git push -u origin main
-   ```
-3. En [vercel.com](https://vercel.com), pulsa **"Add New Project"**, importa el repositorio y pulsa **Deploy**.
-   *(Vercel compilará automáticamente usando el export estático preconfigurado).*
+El proyecto ya está vinculado y actualizado en tu repositorio:
+`https://github.com/CamiloGarcia11/Link_tricomm`
+
+En [vercel.com](https://vercel.com), pulsa **"Add New Project"**, importa el repositorio y pulsa **Deploy**.
+*(Vercel compilará automáticamente usando el export estático preconfigurado).*
 
 ### Opción 2: Despliegue directo por terminal (Sin GitHub)
 Ejecuta:
@@ -95,5 +89,5 @@ Inicia sesión con tu cuenta de Vercel y acepta los valores por defecto. En meno
 ---
 
 ## 📄 Créditos
-- **Cliente:** TRICOMM Telecomunicaciones
+- **Cliente:** TRICOM Telecomunicaciones
 - **Desarrollo:** [VisionWeb](https://visionwebcl.pages.dev)

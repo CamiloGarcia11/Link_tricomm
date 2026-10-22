@@ -7,12 +7,12 @@ export const Header: React.FC = () => {
       {/* Logo container with GPU-accelerated CSS entrance */}
       <div className="relative group mb-5 animate-scale-in">
         <div className="relative flex items-center justify-center p-3.5 bg-white/90 backdrop-blur-xs rounded-3xl border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all duration-300 group-hover:shadow-[0_12px_36px_rgba(234,79,29,0.09)]">
-          {/* Ultra-optimized WebP with PNG fallback (7.9 KB) - direct static serve, 0 Vercel image compute */}
+          {/* Ultra-optimized WebP with PNG fallback (8.1 KB) - direct static serve, 0 Vercel image compute */}
           <picture>
-            <source srcSet="/logo-tricomm.webp" type="image/webp" />
+            <source srcSet="/logo-tricom.webp" type="image/webp" />
             <img
-              src="/logo-tricomm.png"
-              alt="Logo TRICOMM Telecomunicaciones"
+              src="/logo-tricom.png"
+              alt="Logo TRICOM Telecomunicaciones"
               width={180}
               height={180}
               loading="eager"
@@ -34,13 +34,13 @@ export const Header: React.FC = () => {
       {/* Official Status Badge */}
       <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-50/70 border border-orange-200/60 shadow-xs mb-3.5 backdrop-blur-xs animate-fade-in-up animate-delay-1">
         <span className="relative flex h-2 w-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-tricomm-orange opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-2 w-2 bg-tricomm-orange"></span>
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-tricom-orange opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-tricom-orange"></span>
         </span>
         <span className="text-xs font-semibold text-slate-800 tracking-tight flex items-center gap-1.5">
           Conectividad y Fibra Óptica
           <span className="text-orange-400">•</span>
-          <span className="text-tricomm-orange font-bold">Canales Oficiales</span>
+          <span className="text-tricom-orange font-bold">Canales Oficiales</span>
         </span>
       </div>
 
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
       {/* Trust micro-bar */}
       <div className="flex items-center justify-center gap-4 mt-3 text-[11px] text-slate-400 font-medium animate-fade-in-up animate-delay-3">
         <span className="inline-flex items-center gap-1">
-          <Wifi className="w-3.5 h-3.5 text-tricomm-orange/80" />
+          <Wifi className="w-3.5 h-3.5 text-tricom-orange/80" />
           Fibra Óptica Directa
         </span>
         <span className="inline-flex items-center gap-1">

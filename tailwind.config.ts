@@ -9,6 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        tricom: {
+          DEFAULT: "#EA4F1D",
+          orange: "#EA4F1D",
+          light: "#FF6B35",
+          dark: "#D44212",
+          gray: "#7D8082",
+          darkgray: "#1E293B",
+          surface: "#F8FAFC",
+        },
         tricomm: {
           DEFAULT: "#EA4F1D",
           orange: "#EA4F1D",

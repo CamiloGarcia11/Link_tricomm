@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
         <p className="text-xs text-slate-500 font-medium">
           © {currentYear}{" "}
           <span className="font-semibold text-slate-700">
-            TRICOMM telecomunicaciones
+            TRICOM telecomunicaciones
           </span>
           . Todos los derechos reservados.
         </p>
